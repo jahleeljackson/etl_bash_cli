@@ -1,9 +1,6 @@
 import csv
 import numpy as np 
 
-def parse_csv(reader_obj: csv.reader) -> list:
-    '''Parses CSV into 2D Python list.'''
-    return list(reader_obj)
 
 def column_type(column: list) -> str:  # Changed return type to str
     '''Returns the data type of a column '''
